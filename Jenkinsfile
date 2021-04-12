@@ -9,5 +9,3 @@ node {
 		bat label: 'Executing package', script: 'dtexec /f .\\\\CICDVersion2\\\\CICDVersion2\\\\ImportPackage.dtsx /SET "\\"\\Package.Variables[User::SourceFile]\\"";"\\"C:\\Code\\Incoming\\\\'
     }
  }
-
-
