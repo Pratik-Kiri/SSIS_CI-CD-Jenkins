@@ -1,6 +1,6 @@
 node {
     stage('SCM') {
-		git changelog: false, poll: false, url: 'https://github.com/akhtarmozammil/ssisPakgae.git'
+		git changelog: false, poll: false, url: 'https://github.com/Pratik-Kiri/ssisPakgae.git'
     }
     stage('Database schema upgrade') {
         echo 'Upgrading target schema'
